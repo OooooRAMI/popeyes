@@ -1,0 +1,135 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.wrap {
+    width: 1080px;
+    height: 1920px;
+    background-color: #fff;
+  }
+.header {
+    width: 1080px;
+    height: 125px;
+    display: flex;
+    background-color: #fff;
+    padding: 27px 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+.home {
+    width: 145px;
+    height: 70px;
+    border-radius: 45px;
+    border: solid 2px #f25600;
+    padding: 14px 0 16px 25px;
+    box-sizing: border-box;
+  }
+img.home_img {
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+  }
+
+span.home_txt {
+    width: 32px;
+    height: 49px;
+    font-family: NotoSansCJKkr;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #f25600;
+    margin-left: 15px;
+    vertical-align: middle;
+  }
+
+.button span.language {
+    width: 118px;
+    height: 48px;
+    border-radius: 24px;
+    border: solid 2px #f25600;
+    padding: 11px 15px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.3;
+    color: #f25600;
+  }
+
+.button span.nutrition {
+    width: 118px;
+    height: 48px;
+    border-radius: 24px;
+    border: solid 2px #f25600;
+    padding: 10px 22px 9px 22px;
+    box-sizing: border-box;
+    font-family: NotoSansCJKkr;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    color: #f25600;
+  }
+.complete_txt {
+    margin: 210px auto 0;
+    font-family: NotoSansCJKkr;
+    font-size: 56px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #000;
+  }
+
+.order {
+    width: 640px;
+    height: 672px;
+    margin: 170px 220px 0;
+    padding: 60px 157px 40px;
+    border-radius: 24px;
+    border: solid 1px #0000001a;
+    box-sizing: border-box;
+  }
+
+img.order_img {
+    width: 290px;
+    height: 230px;
+    object-fit: contain;
+    box-sizing: border-box;
+  }
+
+.order_txt {
+    margin: 50px 0 0 0;
+    font-family: NotoSansCJKkr;
+    font-size: 53px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #000;
+    box-sizing: border-box;
+  }
+
+.order_num {
+    margin: 0 3px;
+    font-family: Roboto;
+    font-size: 172px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #000;
+    box-sizing: border-box;
+  }
+
+.explanation {
+    margin-top: 120px;
+    font-family: NotoSansCJKkr;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #000;
+    box-sizing: border-box;
+  }
